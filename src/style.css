@@ -1,0 +1,17 @@
+h1, p {
+  font-family: Lato;
+}
+
+@media (min-width: 768px) {
+  .container-personagens {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-personagens {
+    display: flex;
+    justify-content: left;
+  }
+}
